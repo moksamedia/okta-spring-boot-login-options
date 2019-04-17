@@ -6,5 +6,5 @@ spring:
       client:
         registration:
           github:
-            client-id: << your secret >>
-            client-secret: << your id >>
+            client-id: << your GitHub client ID>>
+            client-secret: << your GitHub client secret >>
