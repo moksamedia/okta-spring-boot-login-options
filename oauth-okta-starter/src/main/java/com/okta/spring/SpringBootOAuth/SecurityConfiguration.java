@@ -10,10 +10,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     public void configure(HttpSecurity http) throws Exception {
         http.antMatcher("/**")
             .authorizeRequests()
-            .antMatchers("/", "/login**")
-            .permitAll()
-            .anyRequest()
-            .authenticated()
+            .antMatchers("/", "/login**").permitAll()
+            .anyRequest().authenticated()
             .and()
             .oauth2Login();
     }
