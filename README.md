@@ -16,7 +16,7 @@ This repository shows how to create a plethora of login options for Spring Boot 
 To install this example, run the following commands:
 
 ```bash
-git clone https://github.com/oktadeveloper/okta-spring-boot-login-options-example.git okta-spring-boot-login-options-example
+git clone https://github.com/oktadeveloper/okta-spring-boot-login-options-example.git
 cd okta-spring-boot-login-options-example
 ```
 
