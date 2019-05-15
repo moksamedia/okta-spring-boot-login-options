@@ -26,7 +26,7 @@ The `basic-auth`, `custom-form-auth`, and `form-auth` examples can all be run us
 ./gradlew bootRun
 ```
 
-Look at the code or the [blog post](https://developer.okta.com/blog/2019/05/15/spring-boot-login-options) for the hard-coded credentials. the blog post also has instructions for configuring GitHub and Okta as identity providers.
+Look at the code or the [blog post](https://developer.okta.com/blog/2019/05/15/spring-boot-login-options) for the hard-coded credentials. The blog post also has instructions for configuring GitHub and Okta as identity providers.
 
 To run the `oauth-okta-starter` example, you'll need to create an account and OIDC app on Okta.
 
